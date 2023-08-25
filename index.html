@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/pngwing.com.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./Images/library.PNG" alt="Library">
+                        <a href="#">Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <span class="material-symbols-outlined sticky-nav-icon">arrow_back_ios</span>
+                    <span class="hide">
+                        <span class="material-symbols-outlined sticky-nav-icon" >arrow_forward_ios</span>
+                    </span>
+
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge1 nav-item dark-badge"><i class="fa-sharp fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user sticky-nav-icon" style="margin-right: 2rem;"></i>
+                </div>
+
+            </div>
+            
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Images/top50.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily upadates of the most played tracks</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <h2>More what you like</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Images/bollywood mush.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                            <p class="card-title">Bollywood Mush</p>
+                            <p class="card-info">Let these songs be the background score to your...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/1 am feels.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">1 AM Feels Hindi</p>
+                            <p class="card-info">Late night cool, & these soothig tunes</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/bollywood butter.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Bollywood Butter</p>
+                            <p class="card-info">B bole to biggest blockbusters, right here!</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/you are in love.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">pov: you're in love</p>
+                            <p class="card-info">Uff, you've fallen! ♥</p>
+                        </div>
+                        </div>
+
+                    <div class="card">
+                        <img src="./Images/bollywood and chill.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Bollywood & Chill</p>
+                            <p class="card-info">Wind down the summer heat with Bollywood's chill...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <h2>Today's Biggest Hits</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Images/hot hits.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Hot Hits Hindi</p>
+                            <p class="card-info">Hottest Hindi music served here. Cover - Rocky Aur...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/bollywood and chill.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Bollywood & Chill</p>
+                            <p class="card-info">Wind down the summer heat with Bollywood's chill...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./Images/punjabi 101.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Punjabi 101</p>
+                            <p class="card-info">Ultimate 101 Punjabi Hits with Shubh</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/ipop superhits.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">I-Pop Superhits</p>
+                            <p class="card-info">Biggest hits from your favourite pop stars. Cover...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Images/sundowner.jpg" >
+                        <img src="./Images/spotify play button.png" class="spotify-play"  >
+                        <div class="card-info-container">
+                        
+                            <p class="card-title">Bollywood Sundowner</p>
+                            <p class="card-info">Kickstart your sundowner party with these hits</p>
+                        </div>
+                    </div>
+
+                  
+
+                </div>
+            </div>            
+
+            <div class="footer">
+
+                <div class="line">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="./Images/tamasha.jpg" >
+                </div>
+                <div class="album-info">
+                        <p class="album-info1">Ager Tum Saath Ho</p>
+                        <p class="album-info2">Alka Yagnik, Arijit Singh</p>
+                        
+                </div>
+                <span class="heart" >♥</span>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <i class="fa-solid fa-shuffle player-control-icon"></i>
+                    <i class="fa-solid fa-backward-step player-control-icon"></i>
+                    <i class="fa-sharp fa-solid fa-circle-play player-control-icon play-btn"  ></i>
+                    <i class="fa-solid fa-forward-step player-control-icon"></i>
+                    <i class="fa-solid fa-repeat player-control-icon"></i>
+                </div>
+
+                <div class="playback-bar">
+                    <span class="current-time" style="opacity: 0.8;">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" >
+                    <span class="total-time" style="opacity: 0.8;">5:41</span>
+                </div>
+
+            </div>
+            <div class="controls">
+                <span class="material-symbols-outlined">live_tv</span>
+                <span class="material-symbols-outlined">queue_music</span>
+                <span class="material-symbols-outlined">tap_and_play</span>
+                <span class="material-symbols-outlined">volume_up</span>
+                <input type="range" min="0" max="100" step="1" class="volume">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
